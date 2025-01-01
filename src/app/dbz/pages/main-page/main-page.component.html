@@ -1,0 +1,13 @@
+<h1>DBZ Personajes</h1>
+<hr>
+
+<div class="row">
+    <div class="col">
+        <app-dbz-characters-list></app-dbz-characters-list>
+    </div>
+    <div class="col">
+        <app-dbz-add-character
+            (emitNewCharacter)="createNewCharacter($event)"
+        ></app-dbz-add-character>
+    </div>
+</div>
